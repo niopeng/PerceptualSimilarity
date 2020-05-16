@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFo
 parser.add_argument('-p0','--path0', type=str, default='./imgs/srim_RRDB_14_n02279972_461_x8_0.png')
 parser.add_argument('-p1','--path1', type=str, default='./imgs/srim_RRDB_14_n02279972_461_x8_25000.png')
 parser.add_argument('-t','--tar', type=str, default='./imgs/n02279972_461.JPEG')
-parser.add_argument('-p','--scale', type=int, default=0.5)
+parser.add_argument('-p','--scale', type=float, default=0.5)
 
 
 opt = parser.parse_args()
