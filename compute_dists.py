@@ -26,5 +26,5 @@ if(opt.use_gpu):
 
 # Compute distance
 dist01 = model.forward(img0,img1)
-os.system("nvidia-smi")
-print('Distance: %.3f'%dist01)
+# os.system("nvidia-smi")
+print('File: %s, Distance: %.3f'%(opt.path0.split('/')[-1], dist01))
