@@ -38,7 +38,7 @@ export PYTHONUNBUFFERED=1
 
 # Do all the research.
 python compute_dists.py -p0 ./imgs/srim_RRDB_14_n02279972_461_x8_0.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
-python compute_dists.py -p0 ./imgs/srim_RRDB_15_n02279972_461_x8_40000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
+python compute_dists.py -p0 ./imgs/srim_RRDB_15_n02279972_461_x8_55000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
 python compute_dists.py -p0 ./imgs/srim_RRDB_15_n02279972_461_x8_5000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
 python compute_dists.py -p0 ./imgs/srim_RRDB_14_n02279972_461_x8_25000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
 # Print completion time.
