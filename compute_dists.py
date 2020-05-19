@@ -11,10 +11,10 @@ parser.add_argument('--use_gpu', action='store_true', help='turn on flag to use 
 
 opt = parser.parse_args()
 
-os.system("nvidia-smi")
+# os.system("nvidia-smi")
 ## Initializing the model
 model = models.PerceptualLoss(model='net-lin',net=opt.net,use_gpu=opt.use_gpu)
-os.system("nvidia-smi")
+# os.system("nvidia-smi")
 # Load images
 img0 = util.im2tensor(util.load_image(opt.path0)) # RGB image from [-1,1]
 img1 = util.im2tensor(util.load_image(opt.path1))
