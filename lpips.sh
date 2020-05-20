@@ -37,8 +37,9 @@ conda activate py37
 export PYTHONUNBUFFERED=1
 
 # Do all the research.
+python compute_dists.py -p0 ./imgs/srim_RRDB_14_n02279972_461_x8_0.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
 python compute_dists.py -p0 ./imgs/srim_RRDB_17_n02279972_461_x8_1000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
 python compute_dists.py -p0 ./imgs/srim_RRDB_17_n02279972_461_x8_2000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
-
+python compute_dists.py -p0 ./imgs/srim_RRDB_17_n02279972_461_x8_3000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
 # Print completion time.
 date
