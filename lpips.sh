@@ -37,8 +37,12 @@ conda activate py37
 export PYTHONUNBUFFERED=1
 
 # Do all the research.
-python compute_dists.py -p0 ./imgs/srim_RRDB_14_n02279972_461_x8_0.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
-python compute_dists.py -p0 ./imgs/srim_RRDB_16_n02279972_461_x8_20000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
-python compute_dists.py -p0 ./imgs/srim_RRDB_16_n02279972_461_x8_25000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
+#python compute_dists.py -p0 ./imgs/srim_RRDB_14_n02279972_461_x8_0.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
+#python compute_dists.py -p0 ./imgs/srim_RRDB_16_n02279972_461_x8_20000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
+#python compute_dists.py -p0 ./imgs/srim_RRDB_16_n02279972_461_x8_25000.png -p1 ./imgs/n02279972_461.JPEG -n vgg --use_gpu
+
+python compute_dists.py -p0 ./imgs/srim_RRDB_36_flickr_cat_000108_x4_15000.png -p1 ./imgs/flickr_cat_000108.jpg -n vgg --use_gpu
+python compute_dists.py -p0 ./imgs/srim_RRDB_40_flickr_cat_000108_x4_80000.png -p1 ./imgs/flickr_cat_000108.jpg -n vgg --use_gpu
+python compute_dists.py -p0 ./imgs/srim_RRDB_41_flickr_cat_000108_x4_25000.png -p1 ./imgs/flickr_cat_000108.jpg -n vgg --use_gpu
 # Print completion time.
 date
