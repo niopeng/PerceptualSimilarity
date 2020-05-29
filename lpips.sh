@@ -46,8 +46,8 @@ export PYTHONUNBUFFERED=1
 #python compute_dists.py -p0 ./imgs/srim_RRDB_40_flickr_cat_000108_x4_80000.png -p1 ./imgs/flickr_cat_000108.jpg -n vgg --use_gpu
 #python compute_dists.py -p0 ./imgs/srim_RRDB_41_flickr_cat_000108_x4_25000.png -p1 ./imgs/flickr_cat_000108.jpg -n vgg --use_gpu
 
-python compute_dists.py -p0 ./imgs/imrdb_RRDB_12_n01531178_6791_x2_55000.png -p1 ./imgs/n01531178_6791.jpeg.jpg -n vgg --use_gpu
-python compute_dists.py -p0 ./imgs/imrdb_RRDB_12_n01531178_6791_x2_95000.png -p1 ./imgs/n01531178_6791.jpeg.jpg -n vgg --use_gpu
-python compute_dists.py -p0 ./imgs/srim_RRDB_32_n01531178_6791_x2_42000.png -p1 ./imgs/n01531178_6791.jpeg.jpg -n vgg --use_gpu
+python compute_dists.py -p0 ./imgs/imrdb_RRDB_12_n01531178_6791_x2_55000.png -p1 ./imgs/n01531178_6791.jpeg -n vgg --use_gpu
+python compute_dists.py -p0 ./imgs/imrdb_RRDB_12_n01531178_6791_x2_95000.png -p1 ./imgs/n01531178_6791.jpeg -n vgg --use_gpu
+python compute_dists.py -p0 ./imgs/srim_RRDB_32_n01531178_6791_x2_42000.png -p1 ./imgs/n01531178_6791.jpeg -n vgg --use_gpu
 # Print completion time.
 date
